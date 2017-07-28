@@ -1,0 +1,4 @@
+title: Contact
+modelClass: AndresLora\Freelanceaa\Models\Contact
+toolbar:
+    buttons: reorder_toolbar

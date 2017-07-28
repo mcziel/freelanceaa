@@ -1,0 +1,21 @@
+columns:
+    name:
+        label: NOMBRE
+        type: text
+        searchable: true
+        sortable: true
+    email:
+        label: EMAIL
+        type: text
+        searchable: true
+        sortable: true
+    message:
+        label: MENSAJE
+        type: text
+        searchable: true
+        sortable: true
+    status:
+        label: status
+        type: text
+        searchable: true
+        sortable: true

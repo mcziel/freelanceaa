@@ -1,0 +1,15 @@
+plugin:
+    name: 'andreslora.freelanceaa::lang.plugin.name'
+    description: 'andreslora.freelanceaa::lang.plugin.description'
+    author: 'Andres Lora'
+    icon: oc-icon-adjust
+    homepage: ''
+permissions:
+    all:
+        tab: all
+        label: all
+navigation:
+    contacts:
+        label: Contactos
+        url: andreslora/freelanceaa/contact
+        icon: icon-paper-plane

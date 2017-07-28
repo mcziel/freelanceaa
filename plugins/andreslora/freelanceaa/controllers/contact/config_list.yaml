@@ -1,0 +1,11 @@
+list: $/andreslora/freelanceaa/models/contact/columns.yaml
+modelClass: AndresLora\Freelanceaa\Models\Contact
+title: Contact
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'andreslora/freelanceaa/contact/update/:id'

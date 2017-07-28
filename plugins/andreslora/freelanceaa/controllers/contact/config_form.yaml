@@ -1,0 +1,10 @@
+name: Contact
+form: $/andreslora/freelanceaa/models/contact/fields.yaml
+modelClass: AndresLora\Freelanceaa\Models\Contact
+defaultRedirect: andreslora/freelanceaa/contact
+create:
+    redirect: 'andreslora/freelanceaa/contact/update/:id'
+    redirectClose: andreslora/freelanceaa/contact
+update:
+    redirect: andreslora/freelanceaa/contact
+    redirectClose: andreslora/freelanceaa/contact

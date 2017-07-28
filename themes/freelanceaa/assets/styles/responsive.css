@@ -1,0 +1,643 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******************************
+
+[Table of Contents]
+
+1. 1440px
+2. 1280px
+3. 1199px
+4. 1024px
+5. 991px
+6. 959px
+7. 880px
+8. 768px
+9. 767px
+10. 639px
+11. 479px
+12. 400px
+
+******************************/
+
+/************
+1. 1440px
+************/
+
+@media only screen and (max-width: 1440px)
+{
+	
+}
+
+/************
+2. 1280px
+************/
+
+@media only screen and (max-width: 1280px)
+{
+	
+}
+
+/************
+3. 1199px
+************/
+
+@media only screen and (max-width: 1199px)
+{
+	#about::before,
+	#services::before,
+	#work::before,
+	#team::before
+	{
+		display: none;
+	}
+	.home_content h1
+	{
+		font-size: 64px;
+	}
+}
+
+/************
+4. 1024px
+************/
+
+@media only screen and (max-width: 1024px)
+{
+	#contact::after
+	{
+		display: none;
+	}
+}
+
+/************
+5. 991px
+************/
+
+@media only screen and (max-width: 991px)
+{
+	.home_content h1
+	{
+		font-size: 56px;
+		width: 100%;
+	}
+	.home_content h3
+	{
+		font-size: 16px;
+		margin-top: 30px;
+		width: 100%;
+	}
+	.home_content .buttons_container
+	{
+		margin-top: 60px;
+	}
+	.pill_button_contact
+	{
+		margin-left: 0px;
+		margin-top: 25px;
+	}
+	.new_project_button
+	{
+		margin-top: 0px;
+		margin-left: 15px;
+	}
+	.expertise_image
+	{
+		margin-top: 30px;
+	}
+	.skill_bars
+	{
+		position: relative;
+		width: 100%;
+		margin-top: 50px;
+	}
+	.bars_container
+	{
+		position: relative;
+		width: 100%;
+	}
+	.scale_container
+	{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	#quote span
+	{
+		font-size: 32px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	#work
+	{
+		padding-top: 100px;
+		padding-bottom: 120px;
+	}
+	.project
+	{
+		margin-bottom: 100px;
+	}
+	.project::after
+	{
+		display: block;
+		position: absolute;
+		left: 15px;
+		bottom: -60px;
+		width: calc(100% - 30px);
+		height: 1px;
+		background: rgba(103, 112, 119, 0.15);
+		content: '';
+	}
+	.project:last-child
+	{
+		margin-bottom: 0px;
+		border-bottom: none;
+		padding-bottom: 0px;
+	}
+	.project:last-child::after
+	{
+		display: none;
+	}
+	.project_content
+	{
+		margin-bottom: 40px;
+	}
+	.project_content p
+	{
+		margin-bottom: 15px;
+	}
+	.project .pill_button_small
+	{
+		margin-top: 15px;
+	}
+	.testimonials_background
+	{
+		display: none;
+	}
+	.team_item
+	{
+		margin-bottom: 30px;
+	}
+	.team_item:last-child
+	{
+		margin-bottom: 0px;
+	}
+	.full_client_list
+	{
+		column-count: 3;
+	}
+	.sub_form
+	{
+		width: 100%;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	#subscribe-form
+	{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.contact_info
+	{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+/************
+6. 959px
+************/
+
+@media only screen and (max-width: 959px)
+{
+	
+}
+
+/************
+7. 880px
+************/
+
+@media only screen and (max-width: 880px)
+{
+	
+}
+
+/************
+8. 768px
+************/
+
+@media only screen and (max-width: 768px)
+{
+	
+}
+
+/************
+9. 767px
+************/
+
+@media only screen and (max-width: 767px)
+{
+	.header
+	{
+		height: 60px;
+		margin-top: 0px;
+	}
+	.logo_container a
+	{
+		font-size: 24px;
+	}
+	.home_content
+	{
+		padding-bottom: 135px;
+	}
+	.home_content h1
+	{
+		font-size: 32px;
+		width: 100%;
+		margin-top: 10px;
+	}
+	.home_content h3
+	{
+		margin-top: 25px;
+	}
+	.home_content .buttons_container
+	{
+		margin-top: 60px;
+	}
+	.main_nav
+	{
+		display: none;
+	}
+	.menu_container
+	{
+		display: inline-block;
+	}
+	.break_content h3
+	{
+		font-size: 24px;
+	}
+	.new_project_container
+	{
+		font-size: 16px;
+	}
+	.section_title h2
+	{
+		font-size: 32px;
+	}
+	.work_process:nth-last-child(2)
+	{
+		margin-bottom: 30px;
+	}
+	.work_process:last-child
+	{
+		margin-bottom: 0px;
+	}
+	.service_item
+	{
+		margin-bottom: 30px;
+	}
+	.service_item:last-child
+	{
+		margin-bottom: 0px;
+	}
+	#stats
+	{
+		padding-top: 120px;
+		padding-bottom: 120px;
+	}
+	.stats_counter_item
+	{
+		margin-bottom: 60px;
+	}
+	#subscribe-form
+	{
+		margin-bottom: 30px;
+		margin-top: 30px;
+	}
+	.sub_form
+	{
+		text-align: center;
+		float: none;
+	}
+	.footer_nav
+	{
+		float: none;
+	}
+	.sub_input_container
+	{
+		float: none;
+		width: 100%;
+	}
+	.sub_btn_container
+	{
+		float: none;
+		margin: 0 auto;
+		width: 130px;
+	}
+	.sub_description
+	{
+		display: none;
+	}
+	.footer_contact
+	{
+		display: none;
+	}
+	.footer_social
+	{
+		margin-top: 0px;
+		text-align: center;
+		float:none;
+	}
+	.contact_info
+	{
+		float: none;
+	}
+	.copyright
+	{
+		margin-top: 30px;
+		text-align: center;
+	}
+}
+
+/************
+10. 639px
+************/
+
+@media only screen and (max-width: 639px)
+{
+	.home_content h3
+	{
+		width: 100%;
+		padding-right: 15px;
+	}
+	.rotate
+	{
+		margin-top: 20px;
+		line-height: 30px;
+	}
+	.pill_button
+	{
+		font-size: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.round_button
+	{
+		height: 40px;
+		width: 40px;
+		font-size: 12px;
+		margin-left: 25px;
+	}
+	.round_button_text
+	{
+		font-size: 10px;
+		margin-left: 10px;
+		padding-top: 12px;
+	}
+	.full_client_list
+	{
+		column-count: 2;
+	}
+}
+
+/************
+11. 479px
+************/
+
+@media only screen and (max-width: 479px)
+{
+	p
+	{
+		font-size: 13px;
+		line-height: 1.5;
+	}
+	.home_content
+	{
+		margin-top: 120px;
+		padding-bottom: 80px;
+	}
+	.home_content h1
+	{
+		font-size: 21px;
+		line-height: 18px;
+		margin-top: 7px;
+		margin-bottom: 7px;
+	}
+	.home_content h1 span
+	{
+		margin-top: 4px;
+	}
+	.home_content h3
+	{
+		font-size: 13px;
+		margin-top: 10px;
+	}
+	.home_content .buttons_container
+	{
+		margin-top: 50px;
+	}
+	.header
+	{
+		height: 40px;
+	}
+	.logo_container a
+	{
+		font-size: 18px;
+	}
+	.menu_hamburger
+	{
+		width: 7px;
+		height: 7px;
+	}
+	.hamburger_container
+	{
+		top: 3px;
+	}
+	.hamburger_lines
+	{
+		height: 1px;
+	}
+	.line_2
+	{
+		top: 3px;
+	}
+	.line_3
+	{
+		top: 6px;
+	}
+	.menu_toggle span
+	{
+		font-size: 10px;
+	}
+	.break_content h3
+	{
+		font-size: 16px;
+	}
+	.section_title h2
+	{
+		font-size: 24px;
+		line-height: 1.3;
+	}
+	.section_title_2 h2
+	{
+		font-size: 20px;
+	}
+	.section_title p
+	{
+		margin-top: 15px;
+	}
+	.section_subtitle
+	{
+		font-size: 20px;
+	}
+	.expertise_text
+	{
+		margin-top: 15px;
+	}
+	.skill_bar
+	{
+		height: 25px;
+		margin-bottom: 30px;
+		box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.3);
+	}
+	.skill_bar span
+	{
+		font-size: 16px;
+		margin-top: 1px;
+	}
+	.scale span
+	{
+		font-size: 16px;
+	}
+	.new_project_container a
+	{
+		font-size: 12px;
+	}
+	.new_project_container
+	{
+		display: block;
+		margin-bottom: 15px;
+	}
+	#quote
+	{
+		padding-top: 180px;
+		padding-bottom: 180px;
+	}
+	#quote span
+	{
+		font-size: 24px;
+	}
+	.project_title_large,
+	.project_title_small
+	{
+		font-size: 20px;
+	}
+	.pill_button_small
+	{
+		font-size: 9px;
+	}
+	#new_project
+	{
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.new_project_container a
+	{
+		font-size: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
+		letter-spacing: 1px;
+	}
+	#testimonials,
+	#work,
+	#services,
+	#about,
+	#team,
+	#clients
+	{
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+	.testimonial_item
+	{
+		padding-top: 25px;
+	}
+	.testimonial_text::before
+	{
+		top: -30px;
+		width: 70px;
+		height: 70px;
+		font-size: 70px;
+	}
+	.testimonial_slider .owl-dots
+	{
+		display: none;
+	}
+	.team_image_rect
+	{
+		padding: 15px;
+	}
+	.team_image_rect_inner
+	{
+		display: none;
+	}
+	.team_name a
+	{
+		font-size: 16px;
+	}
+	.team_role
+	{
+		font-size: 12px;
+		margin-bottom: 15px;
+	}
+	.team_content
+	{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.team_content p
+	{
+		font-size: 13px;
+	}
+	.stats_counter
+	{
+		font-size: 32px;
+	}
+	.full_client_list
+	{
+		column-count: 1;
+	}
+	.footer_nav li
+	{
+		font-size: 11px;
+	}
+	#contact h1
+	{
+		font-size: 24px;
+		margin-bottom: 12px;
+	}
+	.contact_subtitle
+	{
+		font-size: 14px;
+	}
+	.contact_subtitle::after
+	{
+		bottom: -30px;
+	}
+	#contact-form
+	{
+		margin-top: 90px;
+	}
+}
+
+/************
+12. 400px
+************/
+
+@media only screen and (max-width: 400px)
+{
+	
+}
